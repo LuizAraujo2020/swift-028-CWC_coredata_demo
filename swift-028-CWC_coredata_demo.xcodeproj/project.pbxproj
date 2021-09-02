@@ -15,6 +15,8 @@
 		6F14121726E0455200093A10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F14121626E0455200093A10 /* Assets.xcassets */; };
 		6F14121A26E0455200093A10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F14121826E0455200093A10 /* LaunchScreen.storyboard */; };
 		6F14122226E0456400093A10 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6F14122126E0456400093A10 /* README.md */; };
+		6FE6B3EE26E11538001B0670 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE6B3EC26E11538001B0670 /* Person+CoreDataClass.swift */; };
+		6FE6B3EF26E11538001B0670 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE6B3ED26E11538001B0670 /* Person+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		6F14121926E0455200093A10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F14121B26E0455200093A10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F14122126E0456400093A10 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6FE6B3EC26E11538001B0670 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Person+CoreDataClass.swift"; path = "swift-028-CWC_coredata_demo/Model/Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6FE6B3ED26E11538001B0670 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Person+CoreDataProperties.swift"; path = "swift-028-CWC_coredata_demo/Model/Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,8 @@
 		6F1411FE26E0454F00093A10 = {
 			isa = PBXGroup;
 			children = (
+				6FE6B3EC26E11538001B0670 /* Person+CoreDataClass.swift */,
+				6FE6B3ED26E11538001B0670 /* Person+CoreDataProperties.swift */,
 				6F14122126E0456400093A10 /* README.md */,
 				6F14120926E0454F00093A10 /* swift-028-CWC_coredata_demo */,
 				6F14120826E0454F00093A10 /* Products */,
@@ -61,6 +67,7 @@
 		6F14120926E0454F00093A10 /* swift-028-CWC_coredata_demo */ = {
 			isa = PBXGroup;
 			children = (
+				6F14122726E048A800093A10 /* Model */,
 				6F14120A26E0454F00093A10 /* AppDelegate.swift */,
 				6F14120C26E0454F00093A10 /* SceneDelegate.swift */,
 				6F14120E26E0454F00093A10 /* ViewController.swift */,
@@ -71,6 +78,13 @@
 				6F14121326E0454F00093A10 /* swift_028_CWC_coredata_demo.xcdatamodeld */,
 			);
 			path = "swift-028-CWC_coredata_demo";
+			sourceTree = "<group>";
+		};
+		6F14122726E048A800093A10 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +161,8 @@
 			files = (
 				6F14121526E0454F00093A10 /* swift_028_CWC_coredata_demo.xcdatamodeld in Sources */,
 				6F14120F26E0454F00093A10 /* ViewController.swift in Sources */,
+				6FE6B3EF26E11538001B0670 /* Person+CoreDataProperties.swift in Sources */,
+				6FE6B3EE26E11538001B0670 /* Person+CoreDataClass.swift in Sources */,
 				6F14120B26E0454F00093A10 /* AppDelegate.swift in Sources */,
 				6F14120D26E0454F00093A10 /* SceneDelegate.swift in Sources */,
 			);
